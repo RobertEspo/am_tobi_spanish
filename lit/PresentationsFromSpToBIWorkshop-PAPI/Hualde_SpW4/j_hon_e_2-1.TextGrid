@@ -1,0 +1,66 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1 
+tiers? <exists> 
+size = 2 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "j_hon_e_2-1" 
+        xmin = 0 
+        xmax = 1 
+        intervals: size = 10 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.1380776387292531 
+            text = "" 
+        intervals [2]:
+            xmin = 0.1380776387292531 
+            xmax = 0.2510985837440827 
+            text = "ho" 
+        intervals [3]:
+            xmin = 0.2510985837440827 
+            xmax = 0.3776560995072614 
+            text = "nd" 
+        intervals [4]:
+            xmin = 0.3776560995072614 
+            xmax = 0.46310556138485476 
+            text = "u" 
+        intervals [5]:
+            xmin = 0.46310556138485476 
+            xmax = 0.4898336422417012 
+            text = "r" 
+        intervals [6]:
+            xmin = 0.4898336422417012 
+            xmax = 0.6167884465767635 
+            text = "e" 
+        intervals [7]:
+            xmin = 0.6167884465767635 
+            xmax = 0.685659677098334 
+            text = "n~" 
+        intervals [8]:
+            xmin = 0.685659677098334 
+            xmax = 0.8958282572998811 
+            text = "o" 
+        intervals [9]:
+            xmin = 0.8958282572998811 
+            xmax = 0.981088944305902 
+            text = "s" 
+        intervals [10]:
+            xmin = 0.981088944305902 
+            xmax = 1 
+            text = "" 
+    item [2]:
+        class = "TextTier" 
+        name = "" 
+        xmin = 0 
+        xmax = 1 
+        points: size = 2 
+        points [1]:
+            time = 0.2899470806551696 
+            mark = "H*" 
+        points [2]:
+            time = 0.5537554782839459 
+            mark = "dur*" 

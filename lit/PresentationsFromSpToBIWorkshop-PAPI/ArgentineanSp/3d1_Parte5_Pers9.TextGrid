@@ -1,0 +1,186 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 2.47825 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "PhonPitchAccent" 
+        xmin = 0 
+        xmax = 2.47825 
+        intervals: size = 9 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.47826117008361935 
+            text = "" 
+        intervals [2]:
+            xmin = 0.47826117008361935 
+            xmax = 0.6710200976112594 
+            text = "H*" 
+        intervals [3]:
+            xmin = 0.6710200976112594 
+            xmax = 1.0430577250825133 
+            text = "" 
+        intervals [4]:
+            xmin = 1.0430577250825133 
+            xmax = 1.1849327764556723 
+            text = "L*" 
+        intervals [5]:
+            xmin = 1.1849327764556723 
+            xmax = 1.2807759690210272 
+            text = "" 
+        intervals [6]:
+            xmin = 1.2807759690210272 
+            xmax = 1.464972488231546 
+            text = "L*" 
+        intervals [7]:
+            xmin = 1.464972488231546 
+            xmax = 1.5872186649435491 
+            text = "" 
+        intervals [8]:
+            xmin = 1.5872186649435491 
+            xmax = 1.7153002067254648 
+            text = "L*" 
+        intervals [9]:
+            xmin = 1.7153002067254648 
+            xmax = 2.47825 
+            text = "" 
+    item [2]:
+        class = "TextTier" 
+        name = "PhonBoundaryTone" 
+        xmin = 0 
+        xmax = 2.47825 
+        points: size = 1 
+        points [1]:
+            time = 1.9393357463018481 
+            mark = "L%" 
+    item [3]:
+        class = "TextTier" 
+        name = "BI" 
+        xmin = 0 
+        xmax = 2.47825 
+        points: size = 1 
+        points [1]:
+            time = 1.9393357463018481 
+            mark = "4" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "Syllable" 
+        xmin = 0 
+        xmax = 2.47825 
+        intervals: size = 14 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.33820972416235623 
+            text = "" 
+        intervals [2]:
+            xmin = 0.33820972416235623 
+            xmax = 0.47826117008361935 
+            text = "i" 
+        intervals [3]:
+            xmin = 0.47826117008361935 
+            xmax = 0.6710200976112594 
+            text = "kwan" 
+        intervals [4]:
+            xmin = 0.6710200976112594 
+            xmax = 0.7515713697108476 
+            text = "to" 
+        intervals [5]:
+            xmin = 0.7515713697108476 
+            xmax = 0.8004205640459174 
+            text = "ba" 
+        intervals [6]:
+            xmin = 0.8004205640459174 
+            xmax = 0.9379140658579351 
+            text = "ter" 
+        intervals [7]:
+            xmin = 0.9379140658579351 
+            xmax = 1.0430577250825133 
+            text = "mi" 
+        intervals [8]:
+            xmin = 1.0430577250825133 
+            xmax = 1.1849327764556723 
+            text = "nar" 
+        intervals [9]:
+            xmin = 1.1849327764556723 
+            xmax = 1.2807759690210272 
+            text = "de" 
+        intervals [10]:
+            xmin = 1.2807759690210272 
+            xmax = 1.464972488231546 
+            text = "Bjen" 
+        intervals [11]:
+            xmin = 1.464972488231546 
+            xmax = 1.5872186649435491 
+            text = "do" 
+        intervals [12]:
+            xmin = 1.5872186649435491 
+            xmax = 1.7153002067254648 
+            text = "eh" 
+        intervals [13]:
+            xmin = 1.7153002067254648 
+            xmax = 1.9393357463018481 
+            text = "te" 
+        intervals [14]:
+            xmin = 1.9393357463018481 
+            xmax = 2.47825 
+            text = "" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "Word" 
+        xmin = 0 
+        xmax = 2.47825 
+        intervals: size = 8 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.33820972416235623 
+            text = "" 
+        intervals [2]:
+            xmin = 0.33820972416235623 
+            xmax = 0.47826117008361935 
+            text = "Y" 
+        intervals [3]:
+            xmin = 0.47826117008361935 
+            xmax = 0.7515713697108476 
+            text = "cuanto" 
+        intervals [4]:
+            xmin = 0.7515713697108476 
+            xmax = 0.8004205640459174 
+            text = "va a" 
+        intervals [5]:
+            xmin = 0.8004205640459174 
+            xmax = 1.1849327764556723 
+            text = "terminar" 
+        intervals [6]:
+            xmin = 1.1849327764556723 
+            xmax = 1.5872186649435491 
+            text = "debiendo" 
+        intervals [7]:
+            xmin = 1.5872186649435491 
+            xmax = 1.9393357463018481 
+            text = "este" 
+        intervals [8]:
+            xmin = 1.9393357463018481 
+            xmax = 2.47825 
+            text = "" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "Sentence" 
+        xmin = 0 
+        xmax = 2.47825 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.33820972416235623 
+            text = "" 
+        intervals [2]:
+            xmin = 0.33820972416235623 
+            xmax = 1.9393357463018481 
+            text = "Y cuanto va a terminar debiendo este?" 
+        intervals [3]:
+            xmin = 1.9393357463018481 
+            xmax = 2.47825 
+            text = "" 

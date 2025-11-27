@@ -1,0 +1,121 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.8462083333333332 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "PhonPitchAccent" 
+        xmin = 0 
+        xmax = 1.8462083333333332 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.5289685881424041 
+            text = "" 
+        intervals [2]:
+            xmin = 0.5289685881424041 
+            xmax = 0.8168044131961727 
+            text = "L+H*(L)" 
+        intervals [3]:
+            xmin = 0.8168044131961727 
+            xmax = 1.045784544777062 
+            text = "L+H*(L)" 
+        intervals [4]:
+            xmin = 1.045784544777062 
+            xmax = 1.8462083333333332 
+            text = "" 
+    item [2]:
+        class = "TextTier" 
+        name = "PhonBoundaryTone" 
+        xmin = 0 
+        xmax = 1.8462083333333332 
+        points: size = 1 
+        points [1]:
+            time = 1.3271380986365982 
+            mark = "L%" 
+    item [3]:
+        class = "TextTier" 
+        name = "BI" 
+        xmin = 0 
+        xmax = 1.8462083333333332 
+        points: size = 2 
+        points [1]:
+            time = 0.8168044131961727 
+            mark = "2" 
+        points [2]:
+            time = 1.3271380986365982 
+            mark = "4" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "Syllable" 
+        xmin = 0 
+        xmax = 1.8462083333333332 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.33259303532599743 
+            text = "" 
+        intervals [2]:
+            xmin = 0.33259303532599743 
+            xmax = 0.5289685881424041 
+            text = "te" 
+        intervals [3]:
+            xmin = 0.5289685881424041 
+            xmax = 0.8168044131961727 
+            text = "nes" 
+        intervals [4]:
+            xmin = 0.8168044131961727 
+            xmax = 1.045784544777062 
+            text = "am" 
+        intervals [5]:
+            xmin = 1.045784544777062 
+            xmax = 1.3271380986365982 
+            text = "bre" 
+        intervals [6]:
+            xmin = 1.3271380986365982 
+            xmax = 1.8462083333333332 
+            text = "" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "Word" 
+        xmin = 0 
+        xmax = 1.8462083333333332 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.33259303532599743 
+            text = "" 
+        intervals [2]:
+            xmin = 0.33259303532599743 
+            xmax = 0.8168044131961727 
+            text = "Tenes" 
+        intervals [3]:
+            xmin = 0.8168044131961727 
+            xmax = 1.3271380986365982 
+            text = "hambre" 
+        intervals [4]:
+            xmin = 1.3271380986365982 
+            xmax = 1.8462083333333332 
+            text = "" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "Sentence" 
+        xmin = 0 
+        xmax = 1.8462083333333332 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.33259303532599743 
+            text = "" 
+        intervals [2]:
+            xmin = 0.33259303532599743 
+            xmax = 1.3271380986365982 
+            text = "Tenes hambre?" 
+        intervals [3]:
+            xmin = 1.3271380986365982 
+            xmax = 1.8462083333333332 
+            text = "" 

@@ -1,0 +1,336 @@
+---
+title: "Speech Recording Methodologies"
+subtitle: "Based on Ahrens & Janikowski (2025)"
+author: "Robert Esposito"
+institute: "Rutgers University"
+date: "Last update: `r Sys.Date()`"
+format: rutgers-revealjs
+engine: knitr
+execute: 
+  out.width: "100%"
+  fig.asp: 0.5625
+  dpi: 300
+---
+
+```{r}
+#| label: setup
+#| include: false
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  echo = TRUE, 
+  fig.asp = 0.5625,
+  out.width = "100%", 
+  fig.retina = 2, 
+  dpi = 300
+  )
+
+set.seed(20251108)
+
+library("tidyverse")
+library("ggimage")
+library("patchwork")
+library("here")
+library("knitr")
+library("datasets")
+library("viridis")
+library("palmerpenguins")
+
+theme_psllt <- function(...) {
+  list(
+    theme_bw(base_family = "Palatino", ...), 
+    theme(
+      plot.subtitle = element_text(color = "grey40"), 
+      panel.grid.major = element_line(color = 'grey90', linewidth = 0.15),
+      panel.grid.minor = element_line(color = 'grey90', linewidth = 0.15)
+    )
+  )
+}
+
+theme_set(theme_grey(base_size = 30))
+
+```
+
+# The basics {.transition}
+
+![](assets/production_2.png)
+
+## Types of recording
+
+:::: {.columns}
+
+::: {.column width="50%"}
+::: {.r-fit-text}
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+Analog
+
+- phonographs, tape recorders
+:::
+:::
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+Digital
+
+- iPhone
+- Digital recording devices
+:::
+:::
+
+:::
+:::
+
+::: {.column width="50%"}
+::: {.fragment}
+![](assets/digital_recorders.jpg)
+:::
+:::
+
+::::
+
+## Where do we analyze?
+
+::: columns
+::: {.column width="50%"}
+Audacity
+![](assets/audacity.png)
+:::
+
+::: {.column width="50%"}
+Praat
+
+![](assets/praat.png)
+:::
+:::
+
+## What do we analyze?
+
+![](assets/soundwave.gif)
+
+## What do we analyze?
+
+![](assets/soundwave_example.jpg)
+
+## What do we analyze?
+
+- Speech rate (# of syllables/words per unit of time, including pauses)
+- Articulation rate (excludes pauses)
+- Ear-voice-span (*décalage*)
+
+# State of the art in speech recording {.transition}
+
+## Current topics
+
+::: {.r-fit-text}
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- interpreting quality, cognitive load, and working memory
+:::
+:::
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- source language speed of delivery and interpreting quality
+:::
+:::
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- speech recording in training
+  - for pedagogical and theoretical research
+:::
+:::
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- development of assessment tools for interpreting quality
+  - 10 mins of audio can take up to 4 hours to assess!
+:::
+:::
+
+:::
+
+## Assessment tools via recording
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- accuracy is a good assessment tool, but other metrics can be used as well
+:::
+:::
+
+::: {.fragment .fade-up}
+- filled pauses
+- ear-voice-span (décalage)
+- fluency
+:::
+
+::: {.notes}
+EVS shorter for professional vs non-professional interpreters with numbers.
+WM & fluency.
+:::
+
+# Ethical issues in speech recording {.transition}
+
+## Legal issues may arise when...
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- recorded individuals are unaware of such
+:::
+:::
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- recordings are used for purposes beyond those already specified
+:::
+:::
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- cloud-based speech-to-text conversion
+:::
+:::
+  
+::: {.notes}
+cloud-based stt e.g., zoom: where are the recordings stored? are they deleted after? is the product stt deleted?
+:::
+
+
+## Data privacy
+
+::: {.fragment .fade-up}
+- anonymization
+:::
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- with the growing power of AI, is removing biographical info enough?
+:::
+:::
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- provide only *measures* from the recording instead of the recording itself
+:::
+:::
+
+# Data measurements {.transition}
+
+## Variables
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- can be central object of study (dependent)
+  - e.g., influence of preparation time on pause length
+:::
+:::
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- can be factor influencing something else (independent)
+  - e.g., influence of input speech rate on accuracy
+:::
+:::
+
+## Data measurements
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- speech rate
+  - best to use syllables, not words
+:::
+:::
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- décalage
+  - measured in seconds
+:::
+:::
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- pauses
+  - how to define what constitutes a 'pause'?
+:::
+:::
+
+::: {.notes}
+syllables better b/c langs differ in word length
+décalage better w/ secs b/c of syllable/word length diffs b/w langs
+notice that these are usually continuous variables, not categorical
+:::
+
+# Preprocessing of audio data {.transition}
+
+## Transcription & alignment
+
+![](assets/segmentation_alignment.png)
+
+## Transcription & alignment
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- automatic speech recognition systems work poorly with more than one speaker
+:::
+:::
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- difficult to align source & target audios
+:::
+:::
+
+# Finishing up {.transition}
+
+## Review
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- speech recording is essential for making quantitative measures of speech
+:::
+:::
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- preprocessing the data is usually the lengthiest part
+:::
+:::
+
+::: {.fragment .fade-up}
+::: {.fragment .semi-fade-out}
+- there are many ways of operationalizing variables of speech
+:::
+:::
+
+## Get in touch! {.final}
+
+![](https://a.espncdn.com/combiner/i?img=/i/teamlogos/ncaa/500/164.png){.absolute top="0" right="0" width="55" height="55"}
+
+</br>
+
+
+<br>
+
+<table style="border-collapse: collapse; border: none;">
+  <tr>
+    <td style="text-align: right; padding-right: 10px;">
+      <a href="mailto:rme70@scarletmail.rutgers.edu">{{< fa solid envelope >}}</a>
+    </td>
+    <td>rme70@scarletmail.rutgers.edu</td>
+  </tr>
+  <tr>
+    <td style="text-align: right; padding-right: 10px;">
+      <a href="https://www.jvcasillas.com/quarto-rutgers-theme/">{{< fa solid link >}}</a>
+    </td>
+    <td>jvcasillas.com/quarto-rutgers-theme</td>
+  </tr>
+  <tr>
+    <td style="text-align: right; padding-right: 10px;">
+      <a href="https://github.com/RobertEspo">{{< fa brands github >}}</a>
+    </td>
+    <td>@RobertEspo</td>
+  </tr>
+</table>

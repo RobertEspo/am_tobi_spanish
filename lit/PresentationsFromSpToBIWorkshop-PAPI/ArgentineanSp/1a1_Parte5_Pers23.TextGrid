@@ -1,0 +1,114 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.2827916666666668 
+tiers? <exists> 
+size = 6 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "PhonetPitchAccent" 
+        xmin = 0 
+        xmax = 1.2827916666666668 
+        intervals: size = 4 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.6147303895299838 
+            text = "" 
+        intervals [2]:
+            xmin = 0.6147303895299838 
+            xmax = 0.7671050215328001 
+            text = "H+L*" 
+        intervals [3]:
+            xmin = 0.7671050215328001 
+            xmax = 1.0706459765633576 
+            text = "" 
+        intervals [4]:
+            xmin = 1.0706459765633576 
+            xmax = 1.2827916666666668 
+            text = "" 
+    item [2]:
+        class = "TextTier" 
+        name = "PhonetBoundary" 
+        xmin = 0 
+        xmax = 1.2827916666666668 
+        points: size = 1 
+        points [1]:
+            time = 1.0706459765633576 
+            mark = "L%" 
+    item [3]:
+        class = "TextTier" 
+        name = "BI" 
+        xmin = 0 
+        xmax = 1.2827916666666668 
+        points: size = 1 
+        points [1]:
+            time = 1.0706459765633576 
+            mark = "4" 
+    item [4]:
+        class = "IntervalTier" 
+        name = "Syllable" 
+        xmin = 0 
+        xmax = 1.2827916666666668 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.28705845506491895 
+            text = "" 
+        intervals [2]:
+            xmin = 0.28705845506491895 
+            xmax = 0.5222845370443738 
+            text = "man" 
+        intervals [3]:
+            xmin = 0.5222845370443738 
+            xmax = 0.6147303895299838 
+            text = "da" 
+        intervals [4]:
+            xmin = 0.6147303895299838 
+            xmax = 0.7671050215328001 
+            text = "ri" 
+        intervals [5]:
+            xmin = 0.7671050215328001 
+            xmax = 1.0706459765633576 
+            text = "nas" 
+        intervals [6]:
+            xmin = 1.0706459765633576 
+            xmax = 1.2827916666666668 
+            text = "" 
+    item [5]:
+        class = "IntervalTier" 
+        name = "Word" 
+        xmin = 0 
+        xmax = 1.2827916666666668 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.28705845506491895 
+            text = "" 
+        intervals [2]:
+            xmin = 0.28705845506491895 
+            xmax = 1.0706459765633576 
+            text = "mandarinas" 
+        intervals [3]:
+            xmin = 1.0706459765633576 
+            xmax = 1.2827916666666668 
+            text = "" 
+    item [6]:
+        class = "IntervalTier" 
+        name = "Sentence" 
+        xmin = 0 
+        xmax = 1.2827916666666668 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 0 
+            xmax = 0.28705845506491895 
+            text = "" 
+        intervals [2]:
+            xmin = 0.28705845506491895 
+            xmax = 1.0706459765633576 
+            text = "mandarinas." 
+        intervals [3]:
+            xmin = 1.0706459765633576 
+            xmax = 1.2827916666666668 
+            text = "" 

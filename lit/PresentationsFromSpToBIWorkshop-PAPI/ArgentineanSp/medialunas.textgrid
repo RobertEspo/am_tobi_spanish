@@ -1,0 +1,74 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 1.3395257912237124 
+xmax = 2.270100854807332 
+tiers? <exists> 
+size = 3 
+item []: 
+    item [1]:
+        class = "IntervalTier" 
+        name = "word" 
+        xmin = 1.3395257912237124 
+        xmax = 2.270100854807332 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 1.3395257912237124 
+            xmax = 1.6076618517992043 
+            text = "" 
+        intervals [2]:
+            xmin = 1.6076618517992043 
+            xmax = 1.811959538390101 
+            text = "L+H*+L" 
+        intervals [3]:
+            xmin = 1.811959538390101 
+            xmax = 2.270100854807332 
+            text = "" 
+    item [2]:
+        class = "IntervalTier" 
+        name = "syllable" 
+        xmin = 1.3395257912237124 
+        xmax = 2.270100854807332 
+        intervals: size = 6 
+        intervals [1]:
+            xmin = 1.3395257912237124 
+            xmax = 1.3436722485500623 
+            text = "" 
+        intervals [2]:
+            xmin = 1.3436722485500623 
+            xmax = 1.5076148365551028 
+            text = "me" 
+        intervals [3]:
+            xmin = 1.5076148365551028 
+            xmax = 1.6076618517992043 
+            text = "dia" 
+        intervals [4]:
+            xmin = 1.6076618517992043 
+            xmax = 1.811959538390101 
+            text = "LU" 
+        intervals [5]:
+            xmin = 1.811959538390101 
+            xmax = 2.263432203819366 
+            text = "nas" 
+        intervals [6]:
+            xmin = 2.263432203819366 
+            xmax = 2.270100854807332 
+            text = "" 
+    item [3]:
+        class = "IntervalTier" 
+        name = "PA" 
+        xmin = 1.3395257912237124 
+        xmax = 2.270100854807332 
+        intervals: size = 3 
+        intervals [1]:
+            xmin = 1.3395257912237124 
+            xmax = 1.3436722485500623 
+            text = "" 
+        intervals [2]:
+            xmin = 1.3436722485500623 
+            xmax = 2.263432203819366 
+            text = "medialunas" 
+        intervals [3]:
+            xmin = 2.263432203819366 
+            xmax = 2.270100854807332 
+            text = "" 
