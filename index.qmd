@@ -142,10 +142,10 @@ HLS 2025. Lots of work on intonation. Bilingual intonation is getting big! That'
 | H*              | L-               | L%                           |
 | L*              | !H-              | !H%                          |
 | L+H*            | H-               | H%                           |
-| L+¡H*           | LH-              | HL%                          |
-| L+<H*           | HL-              | LH%                          |
-| L*+H            | LHL-             | L!H%                         |
-| H+L*            |                  | LHL%                         |
+| L+¡H*           | HL-              | HL%                          |
+| L+<H*           | LH-              | LH%                          |
+| L*+H            |                  | L!H%                         |
+| H+L*            | LHL-             | LHL%                         |
 
 
 ## Let's look at the typical declarative contour
