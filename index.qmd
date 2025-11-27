@@ -148,7 +148,9 @@ HLS 2025. Lots of work on intonation. Bilingual intonation is getting big! That'
 | H+L*            |                  | LHL%                         |
 
 
-## {background-iframe="https://sp-tobi.upf.edu/labelling_system/tonal_representation/pitch_accents/lpdhs" #iframe-lpdhs-id}
+## Let's look at the typical declarative contour
+
+[L+>H* and L* L%](https://sp-tobi.upf.edu/labelling_system/tonal_representation/pitch_accents/lpdhs)
 
 ::: footer
 @aguilar2024sptobi
@@ -167,10 +169,8 @@ But [don't]{.emph} get confused!
 :::
 
 ::: {.fragment .fade-up}
-There are still boundary tones associated with the iP!
+[There are still boundary tones associated with the iP!](https://sp-tobi.upf.edu/labelling_system/tonal_representation/boundary_tones/bI3/lhb)
 :::
-
-## {background-iframe="https://sp-tobi.upf.edu/labelling_system/tonal_representation/boundary_tones/bI3/lhb" #iframe-lhb-id}
 
 ## Information structure
 
@@ -218,13 +218,13 @@ But some varieties do...
 
 ## Pasto Spanish {.scrollable}
 
-{{< youtube PHGxkgrPvW4&t >}}
+{{< youtube PHGxkgrPvW4 >}}
 
-{{< youtube aKAJyDuSEGs&t >}}
+{{< youtube aKAJyDuSEGs >}}
 
-{{< youtube EJU7u28FJrs&t >}}
+{{< youtube EJU7u28FJrs >}}
 
-# Okay, now for some perception studies
+# Okay, now for some perception studies {.transition}
 
 ## Cues to sentence modality
 
@@ -258,12 +258,21 @@ Face did some gating experiments [-@face2005f0; -@face2007role]
     </td>
     <td>rme70@scarletmail.rutgers.edu</td>
   </tr>
+
   <tr>
     <td style="text-align: right; padding-right: 10px;">
       <a href="https://www.jvcasillas.com/quarto-rutgers-theme/">{{< fa solid link >}}</a>
     </td>
     <td>jvcasillas.com/quarto-rutgers-theme</td>
   </tr>
+
+  <tr>
+    <td style="text-align: right; padding-right: 10px;">
+      <a href="https://robertespo.github.io/">{{< fa solid link >}}</a>
+    </td>
+    <td>robertespo.github.io</td>
+  </tr>
+
   <tr>
     <td style="text-align: right; padding-right: 10px;">
       <a href="https://github.com/RobertEspo">{{< fa brands github >}}</a>
