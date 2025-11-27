@@ -1,9 +1,0 @@
-project:
-  title: "Spanish in Autosegmental Metrical Theory"
-  render:
-    - "*.qmd"
-    - "!./docs/lit/"
-    - "README.qmd"
-
-bibliography: ./lit/am_tobi_spanish.bib
-csl: ./lit/apa.csl
